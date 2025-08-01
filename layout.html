@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Final Layout</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+
+    .top-bar {
+      display: flex;
+      width: 100%;
+    }
+
+    .header {
+      background: limegreen;
+      width: 30%;
+      text-align: center;
+      padding: 20px;
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    .menu {
+      background: aquamarine;
+      width: 70%;
+      padding: 20px;
+      text-align: center;
+      font-size: 18px;
+    }
+
+
+    .hero {
+      background: blue;
+      height: 300px;
+    }
+
+
+    .content {
+      display: flex;
+      height: 250px;
+    }
+
+    .main {
+      background: darkorange;
+      flex: 2;
+    }
+
+    .spacer {
+      flex: 0.5;
+    }
+
+    .image-box {
+      background: hotpink; 
+      flex: 1;
+    }
+
+ 
+    .banner {
+      background: magenta;
+      border: 5px solid red;
+      height: 150px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+    <div class="header">HEADER</div>
+    <div class="menu">MENU</div>
+  </div>
+
+  <div class="hero"></div>
+
+  <div class="content">
+    <div class="main"></div>
+    <div class="spacer"></div>
+    <div class="image-box"></div>
+  </div>
+
+  <div class="banner"></div>
+
+</body>
+</html>
